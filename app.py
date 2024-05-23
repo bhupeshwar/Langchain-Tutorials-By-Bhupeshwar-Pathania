@@ -36,7 +36,6 @@ def get_ollama_response(question):
 def get_huggingface_response(question):
     #llm_huggingface=HuggingFaceHub(repo_id="google/flan-t5-large",model_kwargs={"temperature":0,"max_length":64})
     llm_huggingface=HuggingFaceHub(repo_id="google/flan-t5-large")
-    #response=llm_huggingface.invoke("can you tell me the capital of Russia")
     response=llm_huggingface.invoke(question)
     return response
 
@@ -46,11 +45,23 @@ st.set_page_config(page_title="Q&A Demo")
 
 st.header("Lanchain Application")
 
-input=st.text_input("Input: ", key="input")
-input_huggingface =input.__str__
-#response=get_openia_response(input)
-#response=get_ollama_response(input)
-response=get_huggingface_response(input_huggingface)
+def get_text():
+    input_text = st.text_input("Input: ", key="input")
+    return input_text
+
+user_input = get_text()
+
+#input=st.text_input("Input: ", key="input")
+
+"""
+You can use get_huggingface_response / get_openia_response / get_ollama_response
+as per your requirement
+"""
+
+if user_input:
+    response=get_huggingface_response(user_input) 
+    #response=get_openia_response(user_input) 
+    #response=get_ollama_response(user_input)
 
 submit=st.button("Ask the question")
 
