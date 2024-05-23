@@ -1,5 +1,7 @@
 """  
-Q&A ChatBot Using OpenAI / Ollama(model="llama2")
+@Author : Bhupeshwar Pathania
+@date : 23-05-2024
+@Description : Q&A ChatBot Using OpenAI / Ollama(model="llama2") / Hugging face
 
 Run like this:
 > PYTHONPATH=. streamlit run app.py   
