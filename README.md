@@ -1,6 +1,12 @@
 # Langchain-Tutorials
 
-Build large language model (LLM) apps with Python, ChatGPT, and other LLMs Using Langchain !
+🤖 Q&A Chatbot Using LLM(llama2)/ LangChain /HuggingFace API / OpenAI API
+
+🚀 I will be sharing my latest project (which will also serve as a tutorial to all), Q&A Chatbot Using LLM(llama2)/ LangChain / HuggingFace API / OpenAI API
+
+# Langchain
+
+LangChain is an open source framework that lets software developers working with artificial intelligence (AI) and its machine learning subset combine large language models with other external components to develop LLM-powered applications. The goal of LangChain is to link powerful LLMs, such as OpenAI's GPT-3.5 and GPT-4, to an array of external data sources to create and reap the benefits of natural language processing (NLP) applications.
 
 # Environment
 
