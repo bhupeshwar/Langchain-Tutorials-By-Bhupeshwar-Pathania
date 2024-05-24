@@ -55,10 +55,9 @@ user_input = get_text()
 
 #input=st.text_input("Input: ", key="input")
 
-"""
-You can use get_huggingface_response / get_openia_response / get_ollama_response
-as per your requirement
-"""
+
+# You can use get_huggingface_response / get_openia_response / get_ollama_response as per your requirement
+
 
 if user_input:
     response=get_huggingface_response(user_input) 
