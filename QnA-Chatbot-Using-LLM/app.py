@@ -29,7 +29,7 @@ def get_openia_response(question):
 ## Function to laod llama2 model and get response
 
 def get_ollama_response(question):
-    llm_ollama=Ollama(model="llama2")
+    llm_ollama=Ollama(model="llama3")
     response=llm_ollama.invoke(question)
     return response
 
