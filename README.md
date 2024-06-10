@@ -1,6 +1,6 @@
 # Langchain-Tutorials
 
-🤖 Q&A Chatbot Using LLM(llama2)/ LangChain /HuggingFace API / OpenAI API
+🤖 Q&A Chatbot Using LLM(llama3)/ LangChain /HuggingFace API / OpenAI API
 
 🚀 I will be sharing my latest project (which will also serve as a tutorial to all), Q&A Chatbot Using LLM(llama3)/ LangChain / HuggingFace API / OpenAI API
 
