@@ -1,4 +1,4 @@
-# Langchain-Tutorials
+# Langchain Tutorials by Bhupeshwar Pathania
 
 🤖 Q&A Chatbot Using LLM(llama3)/ LangChain /HuggingFace API / OpenAI API
 
